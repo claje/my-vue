@@ -18,8 +18,8 @@
     <h3>Entered Information</h3>
 
     <p>Name: {{name}}</p>
-    <p>Age: {{ age }}</p>
-    <p>Course: {{ course }}</p>
+    <p>Age: {{age}}</p>
+    <p>Course: {{course}}</p>
   </div>
 </template>
 

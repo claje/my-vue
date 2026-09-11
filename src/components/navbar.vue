@@ -22,6 +22,7 @@
             <li><router-link to="/Sample" active-class="active">Sample</router-link></li>
             <li><router-link to="/SampleMethod" active-class="active">Sample Method</router-link></li>
             <li><router-link to="/SampleVmodel" active-class="active">Sample VModel</router-link></li>
+            <li><router-link to="/SampleProfile" active-class="active">Sample Profile</router-link></li>
         </ul>
 
         <div class="portal-btn">Get a Quote</div>

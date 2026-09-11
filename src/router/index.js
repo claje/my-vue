@@ -9,7 +9,7 @@ import Contact from '@/views/contact.vue'
 import sample from '@/views/sample.vue'
 import sampleMethod from '@/views/sampleMethod.vue'
 import sampleVmodel from '@/views/sampleVmodel.vue'
-
+import sampleProfile from '@/views/sampleProfile.vue'
 
 const routes = [
     {
@@ -61,6 +61,11 @@ const routes = [
         path: '/SampleVmodel',
         name: 'SampleVmodel',
         component: sampleVmodel
+    },
+    {
+        path: '/SampleProfile',
+        name: 'SampleProfile',
+        component: sampleProfile
     }
 
 ]
