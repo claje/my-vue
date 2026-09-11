@@ -2,10 +2,13 @@ import { createRouter, createWebHistory } from 'vue-router'
 import homepage from '@/views/homepage.vue'
 import About from '@/views/About.vue'
 import Projects from '@/views/Projects.vue'
-import Services from '@/views/services.vue'
+import Services from '@/views/Services.vue'
 import Products from '@/views/Products.vue'
 import FAQs from '@/views/FAQs.vue'
 import Contact from '@/views/contact.vue'
+import sample from '@/views/sample.vue'
+import sampleMethod from '@/views/sampleMethod.vue'
+import sampleVmodel from '@/views/sampleVmodel.vue'
 
 
 const routes = [
@@ -43,6 +46,21 @@ const routes = [
         path: '/Contact',
         name: 'Contact',
         component: Contact
+    },
+    {
+        path: '/Sample',
+        name: 'Sample',
+        component: sample
+    },
+    {
+        path: '/SampleMethod',
+        name: 'SampleMethod',
+        component: sampleMethod
+    },
+    {
+        path: '/SampleVmodel',
+        name: 'SampleVmodel',
+        component: sampleVmodel
     }
 
 ]

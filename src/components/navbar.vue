@@ -15,10 +15,13 @@
             <li><router-link to="/" active-class="active">Home</router-link></li>
             <li><router-link to="/About_us" active-class="active">About</router-link></li>
             <li><router-link to="/Products" active-class="active">Products</router-link></li>
-            <li><router-link to="/services" active-class="active">Services</router-link></li>
+            <li><router-link to="/Services" active-class="active">Services</router-link></li>
             <li><router-link to="/Projects" active-class="active">Projects</router-link></li>
             <li><router-link to="/FAQs" active-class="active">FAQs</router-link></li>
             <li><router-link to="/Contact" active-class="active">Contact</router-link></li>
+            <li><router-link to="/Sample" active-class="active">Sample</router-link></li>
+            <li><router-link to="/SampleMethod" active-class="active">Sample Method</router-link></li>
+            <li><router-link to="/SampleVmodel" active-class="active">Sample VModel</router-link></li>
         </ul>
 
         <div class="portal-btn">Get a Quote</div>
